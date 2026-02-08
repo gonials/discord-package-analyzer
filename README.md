@@ -26,3 +26,10 @@ npm install
 npm run dev
 ```
 
+Open http://localhost:5173.
+
+## GitHub Pages (live site)
+
+- **URL:** https://gonials.github.io/discord-package-analyzer/ (use this exact URL with trailing slash).
+- **Enable:** Repo **Settings** → **Pages** → Source: **Deploy from a branch** → Branch: **gh-pages** → Save.
+- **Deploy:** Push to `main`; the GitHub Action builds and deploys. Or run `npm run deploy` locally.

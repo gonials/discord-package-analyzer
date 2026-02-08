@@ -1,0 +1,189 @@
+.messages-summary-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}
+
+.messages-summary-list li {
+  margin-bottom: 0.25rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.data-table th {
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.data-table tbody tr {
+  cursor: pointer;
+}
+
+.data-table tbody tr:hover {
+  background: var(--bg-tertiary);
+}
+
+.data-table tbody tr.selected {
+  background: var(--accent);
+  color: white;
+}
+
+.data-table tbody tr.selected td {
+  color: inherit;
+}
+
+.messages-channel-hint {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.messages-graph-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.messages-graph-header .panel-title {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+}
+
+.messages-channel-server {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.messages-back-btn {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8125rem;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.messages-back-btn:hover {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.messages-channel-date-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.messages-date-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.messages-date-label-text {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.messages-date-input {
+  padding: 0.4rem 0.6rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+}
+
+.messages-search-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.messages-search-input {
+  min-width: 12rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+}
+
+.messages-search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.messages-channel-search {
+  margin-bottom: 0.5rem;
+}
+
+.messages-clear-dates-btn {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8125rem;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.messages-clear-dates-btn:hover {
+  color: var(--text-secondary);
+  border-color: var(--text-muted);
+}
+
+.messages-channel-empty {
+  margin: 0;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+}
+
+.top-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.top-word-tag {
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+}
+
+.top-word-count {
+  color: var(--text-muted);
+  margin-left: 0.25rem;
+}

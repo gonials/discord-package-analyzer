@@ -1,0 +1,107 @@
+:root {
+  --bg-primary: #313338;
+  --bg-secondary: #2b2d31;
+  --bg-tertiary: #1e1f22;
+  --text-primary: #f2f3f5;
+  --text-secondary: #b5bac1;
+  --text-muted: #80848e;
+  --accent: #5865f2;
+  --accent-hover: #4752c4;
+  --border: rgba(255, 255, 255, 0.06);
+  --success: #23a559;
+  --sidebar-width: 200px;
+}
+
+* {
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--bg-tertiary);
+}
+
+body {
+  margin: 0;
+  font-family: 'gg sans', 'Noto Sans', system-ui, -apple-system, sans-serif;
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+}
+
+.panel {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.view-heading {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.panel-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin: 0 0 0.75rem 0;
+}
+
+.brand-gold {
+  color: #e6c04a;
+  font-weight: 700;
+  text-shadow: 0 0 20px rgba(230, 192, 74, 0.35);
+}
+
+/* Scrollbars: blurple thumb, dark track (webkit) */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--bg-tertiary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 5px;
+  border: 2px solid var(--bg-tertiary);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-hover);
+}
+
+*::-webkit-scrollbar-corner {
+  background: var(--bg-tertiary);
+}

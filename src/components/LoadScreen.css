@@ -1,0 +1,93 @@
+.load-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.load-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 520px;
+  width: 100%;
+}
+
+.load-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.load-subtitle {
+  margin: 0 0 1.5rem 0;
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}
+
+.load-error {
+  background: rgba(240, 71, 71, 0.15);
+  color: #f04747;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+.load-progress-wrap {
+  margin-bottom: 1rem;
+}
+
+.load-status {
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.load-progress-bar {
+  height: 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.load-progress-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  transition: width 0.2s ease-out;
+}
+
+.load-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.load-option {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.load-option-label {
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.load-option-hint {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.load-input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}

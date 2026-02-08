@@ -1,0 +1,71 @@
+.app {
+  min-height: 100vh;
+}
+
+.password-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.password-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.password-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.password-subtitle {
+  margin: 0 0 1.25rem 0;
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}
+
+.password-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.password-input {
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+}
+
+.password-input::placeholder {
+  color: var(--text-muted);
+}
+
+.password-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.password-error {
+  background: rgba(240, 71, 71, 0.15);
+  color: #f04747;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+
+.password-btn {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}

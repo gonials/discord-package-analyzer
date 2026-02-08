@@ -1,0 +1,27 @@
+.servers-count {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+}
+
+.server-card {
+  margin-bottom: 1rem;
+}
+
+.server-name {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.server-meta {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.server-more {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}

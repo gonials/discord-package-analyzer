@@ -1,0 +1,119 @@
+.timeline-view .panel {
+  margin-bottom: 1.5rem;
+}
+
+.timeline-muted {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.timeline-chart-wrap {
+  margin-top: 0.75rem;
+}
+
+.timeline-chart-hint {
+  margin: 0 0 0.5rem 0;
+}
+
+.timeline-chart-note {
+  margin: 0 0 0.5rem 0;
+}
+
+.timeline-chart-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-tertiary);
+  -webkit-overflow-scrolling: touch;
+}
+
+.timeline-chart-inner {
+  min-height: 260px;
+}
+
+.timeline-empty {
+  margin: 1rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+}
+
+.timeline-filter-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+  max-width: 280px;
+}
+
+.timeline-filter-text {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.timeline-filter-input {
+  padding: 0.4rem 0.6rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+}
+
+.timeline-filter-input::placeholder {
+  color: var(--text-muted);
+}
+
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 0.5rem;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.timeline-item:last-child {
+  border-bottom: none;
+}
+
+.timeline-date {
+  flex-shrink: 0;
+  width: 7rem;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.timeline-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.timeline-label {
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+}
+
+.timeline-meta {
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+}
+
+.timeline-item--first_global .timeline-label {
+  font-weight: 600;
+}
+
+.timeline-item--peak .timeline-label {
+  color: var(--accent);
+}

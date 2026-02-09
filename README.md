@@ -21,7 +21,7 @@ A web app that loads your Discord data export (ZIP or folder) and shows summarie
 ## Run the app
 
 ```bash
-cd discord-package-analyzer
-npm install
-npm run dev
+$ cd discord-package-analyzer
+$ npm install
+$ npm run dev
 ```
